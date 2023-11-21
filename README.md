@@ -35,13 +35,13 @@ While not explicitly shown in the provided code, axios is a potential library fo
 To run the app, first clone the repository to your local machine:
 
 ```
-git clone  https://github.com/neerajcode34/Terribly_Assignment.git
+git clone  https://github.com/neerajcode34/terrblyTask.git
 ```
 
 Then, navigate to the project directory and install the required dependencies:
 
 ```
-cd Terribly_Assignment
+cd terrblyTask
 npm install
 ```
 
