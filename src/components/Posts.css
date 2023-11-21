@@ -1,0 +1,50 @@
+.posts {
+    margin-top: 2rem;
+    border-top: #ececec 2px solid;
+  }
+  
+  .divider {
+    position: relative;
+    border-top: 2px solid lightgray;
+    width: 100px;
+    border-right: 2px solid lightgray;
+    height: 35px;
+  }
+  
+  .divider::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 74rem;
+    background-color: lightgray;
+    top: 100%;
+    left: 100%;
+  }
+  
+  .postb {
+    color: rgb(34, 167, 219);
+    font-weight: 500;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .posts {
+      margin-top: 1rem;
+      /* Adjust margin for smaller screens */
+    }
+  
+    .divider {
+      width: 60px;
+      /* Adjust divider width for smaller screens */
+    }
+  
+    .divider::after {
+      width: 60rem;
+      /* Adjust width for smaller screens */
+    }
+  
+    .postb {
+      font-size: 14px;
+      /* Adjust font size for smaller screens */
+    }
+  }
+  

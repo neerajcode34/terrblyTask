@@ -1,0 +1,158 @@
+.banner__img {
+    min-height: 250px;
+    width: 100%;
+    background: url("../assets/banner.jpg") center no-repeat;
+    background-size: cover;
+  }
+  
+  .profile__details {
+    width: 100%;
+    padding-left: 20px;
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: 130px auto;
+    align-items: center;
+    transform: translateY(-25px);
+  }
+  
+  .profile__details .profile__pic {
+    width: 120px;
+    border-radius: 50%;
+    outline: 2px solid #000;
+  }
+  
+  .profile__details .social_details {
+    display: grid;
+    grid-template-columns: repeat(2, +1fr);
+    padding-top: 10px;
+  }
+  
+  .profile__details .social_details .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 12px 0;
+    grid-column: 1 / span 2;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile__details .social_details .name span {
+    display: inline-block;
+    margin-right: 7px;
+  }
+  
+  .profile__details .social_details .name .icon {
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    margin: 0 0 0 2px;
+    align-self: end;
+    margin-bottom: 3px;
+  }
+  
+  .profile__details .social_details .name .diamond {
+    background-color: darkviolet;
+  }
+  
+  .profile__details .social_details .name .verified {
+    width: 22px;
+    align-self: center;
+  }
+  
+  .profile__details .social_details .follow__details {
+    display: flex;
+    column-gap: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #595959;
+  }
+  
+  .profile__details .social_details .follow__details .tag {
+    display: inline-block;
+    padding: 2px 15px;
+    border: 1.5px solid #929292;
+    font-size: 1.1rem;
+    border-radius: 5px;
+  }
+  
+  .profile__details .bio {
+    grid-column: 1 / span 2;
+  }
+  
+  .profile__details .bio .bio__line {
+    margin: 0;
+  }
+  
+  .profile__details .bio .instagram {
+    font-size: 0.9rem;
+  }
+  
+  .profile__details .activities {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / span 2;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+  
+  .icon {
+    width: 22px;
+    padding: 5px;
+    margin: 0 3px 0 7px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  
+  .icon img {
+    width: 100%;
+  }
+  
+  .like {
+    background-color: #ffd700;
+  }
+  
+  .star {
+    background-color: #69c6ff;
+  }
+  
+  .eye {
+    background-color: #646464;
+  }
+  
+  .heart {
+    background-color: #d21e1e;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .profile__details {
+      grid-template-columns: 200px auto;
+    }
+  
+    .profile__details .profile__pic {
+      width: 180px;
+    }
+  
+    .profile__details .social_details .name {
+      font-size: 1.6rem;
+    }
+  
+    .profile__details .social_details .name .diamond {
+      width: 15px;
+      height: 15px;
+      margin-bottom: 6px;
+    }
+  
+    .profile__details .social_details .name .verified {
+      width: 23px;
+    }
+  
+    .profile__details .bio .bio__line {
+      font-size: 1.3rem;
+    }
+  
+    .profile__details .bio .instagram {
+      font-size: 1.1rem;
+    }
+  }
